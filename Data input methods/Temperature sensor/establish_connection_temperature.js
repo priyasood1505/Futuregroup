@@ -31,7 +31,8 @@ var connectCallback = function (err) {
         // Create a message and send it to the IoT Hub every second
         var sendInterval = setInterval(function () {
                                        //fake data is input here 
-                                       var temperature = 50 + ((Math.random() * 30)-15); // range: [35, 65]
+                                       //var temperature = 50 + ((Math.random() * 30)-15); // range: [35, 65]
+                                       var temperature = Math.floor(Math.random() * (40 - 20 +1)) + 20;; 
                                        var data = JSON.stringify({ deviceId: 'temperatureSensor', temperature: temperature });
                                        var message = new Message(data);
                                        message.properties.add('temperatureAlertUCL', (temperature > 55) ? 'true' : 'false');
