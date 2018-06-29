@@ -7,7 +7,7 @@ IoT is further divided in 2 types of IoT
 In this repository, we aim to develop IIoT.
 
 ## IIoT
-IIoT refers to the Industrial Internet of Things. This Repository focuses on IoT using Microsoft Azure services. All the scripts and codes with a basic workflow, code explanation, documentation and references is included in the repository. Through this repository we can actually build a small network on Microsoft Azure to predict the conditioning and predictive maintenance of a rotating motor.  
+IIoT refers to the Industrial Internet of Things. This Repository focuses on IoT using Microsoft Azure services. All the scripts and codes with a basic workflow, code explanation, documentation and references is included in the repository. Through this repository we can actually build a small network on Microsoft Azure to predict the conditioning and predictive maintenance of a Power and Temerature Consumption.  
 
 ## Applications of IIoT
 There are many applications of IIoT since the concept of cyber physical systems and intelligent systems is directly related to IoT technology. IIoT is gaining much interest in industry due to its large number of applications. Its applications are :
